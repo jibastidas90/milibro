@@ -1,4 +1,4 @@
-# Ejercicio Mi Primer Libro
+# "Es altamente probable que internet colapse en algún momento y que todo deje de funcionar"
 
 This is a small sample book to give you a feel for how book content is
 structured.
