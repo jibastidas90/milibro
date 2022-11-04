@@ -1,125 +1,85 @@
-# Markdown Files
+# ¿Es entonces una cuestión de tiempo que internet colapse?
 
-Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
-in regular markdown files (`.md`), you'll write in the same flavor of markdown
-called **MyST Markdown**.
+Yo no diría que es seguro al 100% que internet colapsará en algún momento y que todo dejará de funcinar, pero creo que es altamente probable.
 
-## What is MyST?
+Lo que obviamente no tengo es una fecha, igual que no la tiene nadie. Puede pasar mañana, dentro de cinco años, de diez o nunca, aunque creo que "nunca" es la menos probable de todas las posibilidades..
 
-MyST stands for "Markedly Structured Text". It
-is a slight variation on a flavor of markdown called "CommonMark" markdown,
-with small syntax extensions to allow you to write **roles** and **directives**
-in the Sphinx ecosystem.
+## Y más allá de lo obvio, ¿qué sucedería si cayera internet?
 
-## What are roles and directives?
+Todo, absolutamente todo depende de internet y eso hace que sea especialmente vulnerable.
 
-Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but **roles are written in one line**, whereas
-**directives span many lines**. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.
+Hemos convertido todo en un ordenador: desde las infraestructuras críticas a los hospitales, las administraciones públicas, las universidades, las empresas, nuestros cuerpos, nuestra ropa, nuestros electrodomésticos. La electricidad.
 
-### Using a directive
+Así que si se cayera, todo dejaría de funcionar, y se produciría además un efecto en cadena, dominó, porque afectaría incluso a servicios que no están conectados a la red.
 
-At its simplest, you can insert a directive into your book's content like so:
+Ya hemos visto simulacros muy reales pero a escala muy pequeñita de lo que podría pasar.
 
-````
-```{mydirectivename}
-My directive content
-```
-````
+Un ciberataque en 2021 contra el principal proveedor de telecomunicaciones de Bélgica dejó K.O. a la mayoría de los servicios gubernamentales, incluidos servicios hospitalarios críticos, el parlamento, las universidades, etcétera. Y eso que solamente duró unas pocas horas.
 
-This will only work if a directive with name `mydirectivename` already exists
-(which it doesn't). There are many pre-defined directives associated with
-Jupyter Book. For example, to insert a note box into your content, you can
-use the following directive:
+Los expertos de los servicios de inteligencia aseguran que sería a partir de 48 horas cuando comenzaría a cundir el pánico, cuando la gente empezaría a temer por su supervivencia.
 
-````
-```{note}
-Here is a note
-```
-````
+## ¿La caída de internet haría a la gente temer por su supervivencia? ¿No es un poco apocalítico?
 
-This results in:
+Claro, pero es que entre todo lo que dejaría de funcionar estarían los mercados y los supermercados.
 
-```{note}
-Here is a note
-```
+Sin internet no podrían facturar, no podrían cobrar más que en efectivo, pero nosotros no podríamos sacar efectivo del banco. Así que aunque los productos estén ahí, no los podríamos comprar.
 
-In your built book.
+¿Y qué pasaría si no podemos acceder a alimentos o a medicinas porque no tenemos efectivo? Ni siquiera los expertos en seguridad nacional son conscientes de hasta dónde llegaría ese efecto en cascada.
 
-For more information on writing directives, see the
-[MyST documentation](https://myst-parser.readthedocs.io/).
+**Dices en tu libro que podríamos quedarnos sin internet en menos de 30 minutos.**
 
+Así es. Es algo que descubrí en el proceso de investigación para mi libro.
 
-### Using a role
+En 1998, un grupo de hackers éticos o hackers buenos, fue llamado a comparecer ante el Senado de Estados Unidos, dada la preocupación que había ya por aquel entonces de que se cayera internet y con él todo el comercio electrónico asociado, que entonces aún era incipiente.
 
-Roles are very similar to directives, but they are less-complex and written
-entirely on one line. You can insert a role into your book's content with
-this pattern:
+Esos hackers declararon que en 30 minutos eran capaces de derribar toda la red a través de vulnerabilidades en un protocolo base de internet que, por decirlo de manera sencilla, hace que la información fluya de la forma más eficiente posible.
 
-```
-Some content {rolename}`and here is my role's content!`
+Es como el GPS de internet, que cuando quieres llegar de un punto a otro de la red -por ejemplo, escribiendo el nombre de una web o haciendo clic en algo- decide cuál es la forma más rápida de hacerlo.
+
+Fue precisamente una actualización de ese protocolo lo que, según la versión de Meta, hizo que el 4 de octubre de 2021 se cayeran todos los sistemas de la familia Facebook, desde WhatsApp a Instagram, y solo con eso ya cundió el pánico.
+
+Esa es una de las posibles vías de caída de internet, pero no la única.
+### Hay muchísimas otras, ¿no?
+
+Cierto. Un ataque contra Google o Amazon, por ejemplo, supondría cargarse la mitad de la red, con las consecuencias que eso tendría para las personas y las empresas que guardan su información en las nubes..
+
+También están nuestros teléfonos, que son además un blanco muy fácil, aunque también duraría poco tiempo, porque las operadoras se darían cuenta y lo resolverían seguramente en un plazo inferior a esos dos días que tenemos de margen previo al desastre, probablemente en cuestión de horas.
+
+O puede ocurrir que un fenómeno de la naturaleza, como una tormenta magnética, haga caer todo. Es algo extremadamente improbable, pero si ocurriera sería nefasto, la caída más catastrófica y más distópica, ya que afectaría no sólo a la red sino a dispositivos como los satélites y otras muchas tecnologías.
+
+Nota:
+
+```{nota}
+En "Error 404" hablas también del sistema DNS y cuentas que está protegido por 14 guardianes, algo que admito que desconocía.
 ```
 
-Again, roles will only work if `rolename` is a valid role's name. For example,
-the `doc` role can be used to refer to another page in your book. You can
-refer directly to another page by its relative path. For example, the
-role syntax `` {doc}`intro` `` will result in: {doc}`intro`.
+Los cables submarinos. Y esta vía es muy vulnerable.
 
-For more information on writing roles, see the
-[MyST documentation](https://myst-parser.readthedocs.io/).
+He seguido investigando y documentándome después de escribir el libro, y así me enteré de que todo Yemen, un país con 30 millones de habitantes, se había quedado sin internet en 2020 a raíz de un fallo en un cable submarino provocado por el ancla de un barco (que algunas fuentes atribuyen a los hutíes, un grupo rebelde involucrado en el conflicto yemení).
 
+Ese cable transportaba el 80% del tráfico en internet del país. El 20% restante va por otro cable.
 
-### Adding a citation
+Pero cuando todos esos millones de personas intentaron conectarse a través de ese segundo cable, este colapsó, con lo cual se quedaron todos sin internet.
 
-You can also cite references that are stored in a `bibtex` file. For example,
-the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
-this: {cite}`holdgraf_evidence_2014`.
+Eso nos hace ver la vulnerabilidad de esas infraestructuras físicas. Porque además de un ataque intencionado, esos cables pueden cortarse por error, como de hecho ha sucedido en varias ocasiones.
 
-Moreover, you can insert a bibliography into your page with this syntax:
-The `{bibliography}` directive must be used for all the `{cite}` roles to
-render properly.
-For example, if the references for your book are stored in `references.bib`,
-then the bibliography is inserted with:
+Dices que hasta un niño podría llevar a cabo un ciberataque contra internet.
 
-````
-```{bibliography}
-```
-````
+Así es. Y esa es otra de las cosas que quería subrayar con este libro: la facilidad, cada vez mayor, de llevar a cabo un ciberataque.
 
-Resulting in a rendered bibliography that looks like:
+Igual que en los comienzos de internet era muy difícil para un usuario básico crear una web y ahora es facilísimo, antes hacer un ciberataque era muy complicado y ahora es muy sencillo. No se necesitan ni siquiera conocimientos avanzados en informática.
 
-```{bibliography}
-```
+Y además cada vez es más barato, del mismo modo que antes los computadores costaban un riñón y no salían de los centros de investigación y ahora todos en nuestra casa tenemos tres, porque un celular o una tablet también son computadores.
 
+Ya tenemos muchos casos de chicos que incluso sin pretenderlo, jugando, han llevado a cabo ciberataques.
 
-### Executing code in your markdown files
+Y dado que hay tantas formas de apagar internet y que ello tendría consecuencias funestas, ¿tienen los gobiernos y los Estados algún plan para evitar el caos que conllevaría una caída masiva de la red?
 
-If you'd like to include computational content inside these markdown files,
-you can use MyST Markdown to define cells that will be executed when your
-book is built. Jupyter Book uses *jupytext* to do this.
+La respuesta corta es no. No hay ningún plan específico para internet.
 
-First, add Jupytext metadata to the file. For example, to add Jupytext metadata
-to this markdown page, run this command:
+Las teleoperadoras están obligadas a tener planes por si hay caídas, y se confía en que esas empresas estén haciendo su trabajo. Y Red Eléctrica (la empresa estatal española responsable de las redes de transmisión de energía) también cuenta con protocolos de actuación en caso de apagón.
 
-```
-jupyter-book myst init markdown.md
-```
+Pero a nivel gubernamental no hay nada. Si hay una caída de internet habrá que ver por ejemplo cómo se organiza a la gente.
 
-Once a markdown file has Jupytext metadata in it, you can add the following
-directive to run the code at build time:
+Ese es uno de los principales temores de Daniel Dennett, quien dice que no tenemos botes salvavidas.
 
-````
-```{code-cell}
-print("Here is some code to execute")
-```
-````
-
-When your book is built, the contents of any `{code-cell}` blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.
-
-For more information about executing computational content with Jupyter Book,
-see [The MyST-NB documentation](https://myst-nb.readthedocs.io/).
