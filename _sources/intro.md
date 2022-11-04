@@ -22,4 +22,4 @@ Error mas conocido:
 error 404
 ```
 
-Check out the content pages bundled with this sample book to see more.
+Consulta más en la siguiente página:
